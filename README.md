@@ -3,13 +3,12 @@
 
 ```
 $ pip install virtualenv
-$ pip install virtualenv
 ```
 Если вы используете Python 3, у вас уже должен быть модуль venv, установленный в стандартной библиотеке.
 Начнем с создания нового каталога, с которым мы будем работать:
 ```
 mkdir python-virtual-environments && cd python-virtual-environments
-mkdir python-virtual-environments && cd python-virtual-environments
+
 ```
 Создание новой виртуальной среды внутри каталога:
 ```
@@ -25,7 +24,7 @@ $ python3 -m venv env
 Чтобы сделать это, просто запустите:
 ```
 $ source env/bin/activate
-$ source env/bin/activate
+
 ```
 Обратите внимание на то, что ваше приглашение командной строки теперь носит префикс вашей среды (в нашем случае – env). 
 Это индикатор того, что env в данный момент активен, что в свою очередь говорит о том,
@@ -34,7 +33,7 @@ $ source env/bin/activate
 Деактивация среды:
 ```
 (env) $ deactivate
-(env) $ deactivate
+
 ```
 Теперь ваш сеанс оболочки вернулся в норму, а команда python ссылается на общую установку Python. 
 
